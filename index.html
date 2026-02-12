@@ -37,14 +37,22 @@
                 <a href="#contact" class="hover:text-teal-600 transition">Contacts</a>
             </div>
             
-            <div class="flex items-center space-x-4 border-l pl-4 md:pl-8 border-gray-200">
-                <a href="#" title="Sign In" class="hover:text-teal-600"><i class="far fa-user text-lg"></i></a>
-                <a href="#" title="Wishlist" class="hover:text-teal-600"><i class="far fa-heart text-lg"></i></a>
-                <a href="#" title="Cart" class="hover:text-teal-600 relative">
-                    <i class="fas fa-shopping-bag text-lg"></i>
-                    <span class="absolute -top-2 -right-2 bg-teal-800 text-white text-[8px] rounded-full px-1">0</span>
-                </a>
-            </div>
+        <div class="flex items-center space-x-5 border-l pl-4 md:pl-8 border-gray-200">
+    <a href="#" title="Sign In" class="hover:text-teal-600 flex flex-col items-center group">
+        <i class="far fa-user text-xl"></i>
+        <span class="text-[8px] mt-1 hidden lg:block group-hover:text-teal-800 uppercase font-bold tracking-tighter">Sign In</span>
+    </a>
+
+    <a href="#" title="Wishlist" class="hover:text-teal-600">
+        <i class="far fa-heart text-xl"></i>
+    </a>
+
+    <a href="#" title="Cart" class="hover:text-teal-600 relative flex flex-col items-center group">
+        <i class="fas fa-shopping-bag text-xl"></i>
+        <span class="absolute -top-2 -right-2 bg-teal-800 text-white text-[9px] rounded-full w-4 h-4 flex items-center justify-center font-bold shadow-sm">0</span>
+        <span class="text-[8px] mt-1 hidden lg:block group-hover:text-teal-800 uppercase font-bold tracking-tighter">Cart</span>
+    </a>
+</div>
         </div>
     </nav>
 
