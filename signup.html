@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join the Circle | Thistle Lanka</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body { font-family: 'Helvetica Neue', sans-serif; }
+    </style>
+</head>
+<body class="bg-gray-50 flex items-center justify-center min-h-screen p-6">
+
+    <div class="max-w-md w-full bg-white rounded-2xl shadow-xl overflow-hidden">
+        <div class="bg-teal-900 p-8 text-center text-white">
+            <h2 class="text-2xl font-bold uppercase tracking-[0.2em] mb-2">The Thistle Circle</h2>
+            <p class="text-xs opacity-80 italic">Join for exclusive handcrafted rewards & discounts.</p>
+        </div>
+
+        <form action="https://formspree.io/f/mqedpzaz" method="POST" class="p-8 space-y-5">
+            <div>
+                <label class="block text-[10px] font-bold uppercase text-gray-400 mb-1">Full Name</label>
+                <input type="text" name="name" required placeholder="Sajini Karunarathna" 
+                       class="w-full border-b border-gray-200 py-2 focus:border-teal-800 outline-none transition text-sm">
+            </div>
+
+            <div>
+                <label class="block text-[10px] font-bold uppercase text-gray-400 mb-1">Email Address</label>
+                <input type="email" name="_replyto" required placeholder="hello@thistlelanka.com" 
+                       class="w-full border-b border-gray-200 py-2 focus:border-teal-800 outline-none transition text-sm">
+            </div>
+
+            <div>
+                <label class="block text-[10px] font-bold uppercase text-gray-400 mb-1">Birthday (Optional)</label>
+                <input type="date" name="birthday" 
+                       class="w-full border-b border-gray-200 py-2 focus:border-teal-800 outline-none transition text-sm text-gray-500">
+                <p class="text-[9px] text-teal-700 mt-1 italic">* We send special treats on your birthday!</p>
+            </div>
+
+            <div class="pt-4">
+                <button type="submit" class="w-full bg-teal-900 text-white font-bold uppercase tracking-widest text-xs py-4 rounded-lg shadow-lg hover:bg-teal-700 transition">
+                    Create My Account
+                </button>
+            </div>
+
+            <div class="text-center pt-4">
+                <a href="index.html" class="text-[10px] uppercase font-bold text-gray-400 hover:text-teal-900 transition tracking-widest">
+                    <i class="fas fa-arrow-left mr-1"></i> Back to Shop
+                </a>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>
