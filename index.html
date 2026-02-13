@@ -33,21 +33,23 @@
         <div class="hidden md:flex space-x-6 text-[11px] font-semibold uppercase tracking-widest">
     <a href="#" class="hover:text-teal-600 transition">Home</a>
     <a href="#about" class="hover:text-teal-600 transition">Story</a>
-    <div class="relative group cursor-pointer py-2">
-    <div class="flex items-center gap-1 hover:text-teal-600 transition">
-        <span>Collection</span>
-        <i class="fas fa-chevron-down text-[8px]"></i>
-    </div>
-    
-    <div class="absolute left-0 mt-2 w-48 bg-white shadow-xl rounded-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50 border border-gray-100 py-2">
-        <a href="#products-story" class="block px-6 py-3 text-[11px] uppercase tracking-widest hover:bg-teal-50 hover:text-teal-900 transition border-b border-gray-50">
-            Products' Story
-        </a>
-        <a href="#gallery" class="block px-6 py-3 text-[11px] uppercase tracking-widest hover:bg-teal-50 hover:text-teal-900 transition">
-            Products
-        </a>
-    </div>
-</div>
+    <div class="relative group cursor-pointer flex items-center">
+            <button class="flex items-center gap-1 hover:text-teal-600 transition uppercase">
+                <span>Collection</span>
+                <i class="fas fa-chevron-down text-[7px] opacity-50"></i>
+            </button>
+            
+            <div class="absolute left-0 top-full pt-4 w-48 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
+                <div class="bg-white shadow-xl rounded-lg border border-gray-100 overflow-hidden">
+                    <a href="products-story.html" class="block px-6 py-4 text-[10px] uppercase tracking-widest hover:bg-teal-50 hover:text-teal-900 transition border-b border-gray-50">
+                        Products' Story
+                    </a>
+                    <a href="products.html" class="block px-6 py-4 text-[10px] uppercase tracking-widest hover:bg-teal-50 hover:text-teal-900 transition">
+                        Products
+                    </a>
+                </div>
+            </div>
+        </div>
     <a href="#contact" class="hover:text-teal-600 transition">Contacts</a>
     <a href="policies.html" class="text-teal-800 border-b border-teal-800 pb-0.5 hover:text-teal-600 transition">Care & Policies</a>
 </div>
